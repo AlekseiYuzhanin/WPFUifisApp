@@ -1,0 +1,155 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="products\picture.png" />
+    <None Remove="products\product_list_layout.jpg" />
+    <None Remove="products\tire_0.jpg" />
+    <None Remove="products\tire_1.jpg" />
+    <None Remove="products\tire_10.jpg" />
+    <None Remove="products\tire_11.jpg" />
+    <None Remove="products\tire_12.jpg" />
+    <None Remove="products\tire_13.jpg" />
+    <None Remove="products\tire_14.jpg" />
+    <None Remove="products\tire_15.jpg" />
+    <None Remove="products\tire_16.jpg" />
+    <None Remove="products\tire_17.jpg" />
+    <None Remove="products\tire_18.jpg" />
+    <None Remove="products\tire_19.jpg" />
+    <None Remove="products\tire_2.jpg" />
+    <None Remove="products\tire_20.jpg" />
+    <None Remove="products\tire_21.jpg" />
+    <None Remove="products\tire_22.jpg" />
+    <None Remove="products\tire_23.jpg" />
+    <None Remove="products\tire_24.jpg" />
+    <None Remove="products\tire_25.jpg" />
+    <None Remove="products\tire_26.jpg" />
+    <None Remove="products\tire_27.jpg" />
+    <None Remove="products\tire_28.jpg" />
+    <None Remove="products\tire_29.jpg" />
+    <None Remove="products\tire_3.jpg" />
+    <None Remove="products\tire_30.jpg" />
+    <None Remove="products\tire_31.jpg" />
+    <None Remove="products\tire_32.jpg" />
+    <None Remove="products\tire_33.jpg" />
+    <None Remove="products\tire_34.jpg" />
+    <None Remove="products\tire_35.jpg" />
+    <None Remove="products\tire_36.jpg" />
+    <None Remove="products\tire_37.jpg" />
+    <None Remove="products\tire_38.jpg" />
+    <None Remove="products\tire_39.jpg" />
+    <None Remove="products\tire_4.jpg" />
+    <None Remove="products\tire_40.jpg" />
+    <None Remove="products\tire_41.jpg" />
+    <None Remove="products\tire_42.jpg" />
+    <None Remove="products\tire_43.jpg" />
+    <None Remove="products\tire_44.jpg" />
+    <None Remove="products\tire_45.jpg" />
+    <None Remove="products\tire_46.jpg" />
+    <None Remove="products\tire_47.jpg" />
+    <None Remove="products\tire_48.jpg" />
+    <None Remove="products\tire_49.jpg" />
+    <None Remove="products\tire_5.jpg" />
+    <None Remove="products\tire_50.jpg" />
+    <None Remove="products\tire_51.jpg" />
+    <None Remove="products\tire_52.jpg" />
+    <None Remove="products\tire_53.jpg" />
+    <None Remove="products\tire_54.jpg" />
+    <None Remove="products\tire_55.jpg" />
+    <None Remove="products\tire_56.jpg" />
+    <None Remove="products\tire_57.jpg" />
+    <None Remove="products\tire_58.jpg" />
+    <None Remove="products\tire_59.jpg" />
+    <None Remove="products\tire_6.jpg" />
+    <None Remove="products\tire_60.jpg" />
+    <None Remove="products\tire_61.jpg" />
+    <None Remove="products\tire_62.jpg" />
+    <None Remove="products\tire_63.jpg" />
+    <None Remove="products\tire_64.jpg" />
+    <None Remove="products\tire_7.jpg" />
+    <None Remove="products\tire_8.jpg" />
+    <None Remove="products\tire_9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="products\picture.png" />
+    <Resource Include="products\product_list_layout.jpg" />
+    <Resource Include="products\tire_0.jpg" />
+    <Resource Include="products\tire_1.jpg" />
+    <Resource Include="products\tire_10.jpg" />
+    <Resource Include="products\tire_11.jpg" />
+    <Resource Include="products\tire_12.jpg" />
+    <Resource Include="products\tire_13.jpg" />
+    <Resource Include="products\tire_14.jpg" />
+    <Resource Include="products\tire_15.jpg" />
+    <Resource Include="products\tire_16.jpg" />
+    <Resource Include="products\tire_17.jpg" />
+    <Resource Include="products\tire_18.jpg" />
+    <Resource Include="products\tire_19.jpg" />
+    <Resource Include="products\tire_2.jpg" />
+    <Resource Include="products\tire_20.jpg" />
+    <Resource Include="products\tire_21.jpg" />
+    <Resource Include="products\tire_22.jpg" />
+    <Resource Include="products\tire_23.jpg" />
+    <Resource Include="products\tire_24.jpg" />
+    <Resource Include="products\tire_25.jpg" />
+    <Resource Include="products\tire_26.jpg" />
+    <Resource Include="products\tire_27.jpg" />
+    <Resource Include="products\tire_28.jpg" />
+    <Resource Include="products\tire_29.jpg" />
+    <Resource Include="products\tire_3.jpg" />
+    <Resource Include="products\tire_30.jpg" />
+    <Resource Include="products\tire_31.jpg" />
+    <Resource Include="products\tire_32.jpg" />
+    <Resource Include="products\tire_33.jpg" />
+    <Resource Include="products\tire_34.jpg" />
+    <Resource Include="products\tire_35.jpg" />
+    <Resource Include="products\tire_36.jpg" />
+    <Resource Include="products\tire_37.jpg" />
+    <Resource Include="products\tire_38.jpg" />
+    <Resource Include="products\tire_39.jpg" />
+    <Resource Include="products\tire_4.jpg" />
+    <Resource Include="products\tire_40.jpg" />
+    <Resource Include="products\tire_41.jpg" />
+    <Resource Include="products\tire_42.jpg" />
+    <Resource Include="products\tire_43.jpg" />
+    <Resource Include="products\tire_44.jpg" />
+    <Resource Include="products\tire_45.jpg" />
+    <Resource Include="products\tire_46.jpg" />
+    <Resource Include="products\tire_47.jpg" />
+    <Resource Include="products\tire_48.jpg" />
+    <Resource Include="products\tire_49.jpg" />
+    <Resource Include="products\tire_5.jpg" />
+    <Resource Include="products\tire_50.jpg" />
+    <Resource Include="products\tire_51.jpg" />
+    <Resource Include="products\tire_52.jpg" />
+    <Resource Include="products\tire_53.jpg" />
+    <Resource Include="products\tire_54.jpg" />
+    <Resource Include="products\tire_55.jpg" />
+    <Resource Include="products\tire_56.jpg" />
+    <Resource Include="products\tire_57.jpg" />
+    <Resource Include="products\tire_58.jpg" />
+    <Resource Include="products\tire_59.jpg" />
+    <Resource Include="products\tire_6.jpg" />
+    <Resource Include="products\tire_60.jpg" />
+    <Resource Include="products\tire_61.jpg" />
+    <Resource Include="products\tire_62.jpg" />
+    <Resource Include="products\tire_63.jpg" />
+    <Resource Include="products\tire_64.jpg" />
+    <Resource Include="products\tire_7.jpg" />
+    <Resource Include="products\tire_8.jpg" />
+    <Resource Include="products\tire_9.jpg" />
+  </ItemGroup>
+
+</Project>
